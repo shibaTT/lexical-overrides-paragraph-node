@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { LexicalComposer } from "@lexical/react/LexicalComposer";
 import { AutoFocusPlugin } from "@lexical/react/LexicalAutoFocusPlugin";
 import { RichTextPlugin } from "@lexical/react/LexicalRichTextPlugin";
@@ -6,7 +5,7 @@ import { ContentEditable } from "@lexical/react/LexicalContentEditable";
 import { HistoryPlugin } from "@lexical/react/LexicalHistoryPlugin";
 import { LexicalErrorBoundary } from "@lexical/react/LexicalErrorBoundary";
 import { TextNode } from "lexical";
-import { CustomTextNode } from "./Node/CustomTextNode";
+import { CustomTextNode } from "./nodes/CustomTextNode";
 import ShowDOMPlugin from "./plugins/ShowDOMPlugin";
 
 function App() {
